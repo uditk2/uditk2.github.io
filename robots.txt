@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://uditk2.github.io/sitemap.xml
