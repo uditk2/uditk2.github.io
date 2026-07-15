@@ -225,17 +225,30 @@
           <div class="chips"><span>3D / Three.js</span><span>Game design</span><span>GTM</span></div>
         </div>
 
-        <div class="work-card tilt reveal">
+        <a class="work-card tilt reveal" href="https://github.com/uditk2/mcp-bash-server" target="_blank" rel="noopener">
           <div class="work-top">
-            <span class="work-badge">Experiments</span>
+            <span class="work-badge">Open source</span>
+            <span class="work-arrow">&#8599;</span>
           </div>
-          <h3>AI / ML lab</h3>
-          <p class="work-tag">Where I test the frontier</p>
-          <p>Small-model reinforcement-learning for extraction, a vision-language-model playground,
-             customer-facing agent systems, and a from-scratch transformer study. The sandbox that
-             feeds everything else.</p>
-          <div class="chips"><span>SLM + RL</span><span>VLMs</span><span>Agents</span></div>
-        </div>
+          <h3>MCP Bash Server</h3>
+          <p class="work-tag">Dev tool · MCP</p>
+          <p>A local MCP server that lets Claude Desktop and Cowork run shell commands on your
+             machine — a <code>run_bash</code> tool over stdio or streamable-HTTP. (It&rsquo;s the
+             tool that built and shipped this very site.)</p>
+          <div class="chips"><span>Python · FastMCP</span><span>stdio / HTTP</span><span>MIT</span></div>
+        </a>
+
+        <a class="work-card tilt reveal" href="https://github.com/uditk2/multimodalagentframework" target="_blank" rel="noopener">
+          <div class="work-top">
+            <span class="work-badge">Open source</span>
+            <span class="work-arrow">&#8599;</span>
+          </div>
+          <h3>Multimodal Agent Framework</h3>
+          <p class="work-tag">Python agent library</p>
+          <p>A library for composing agents that play to the strengths of different LLMs — mixing
+             OpenAI and Claude within one system. The scaffolding under a lot of my agent work.</p>
+          <div class="chips"><span>Python</span><span>Multi-LLM</span><span>MIT</span></div>
+        </a>
 
         <a class="work-card tilt reveal" href="https://github.com/uditk2/VNCAIAgent" target="_blank" rel="noopener">
           <div class="work-top">
@@ -279,36 +292,69 @@
     <!-- WRITING -->
     <section class="section" id="writing">
       <div class="section-head reveal">
-        <span class="kicker">04 — Writing &amp; field notes</span>
-        <h2>Things I&rsquo;ve been thinking about.</h2>
+        <span class="kicker">04 — Writing &amp; thought leadership</span>
+        <h2>Writing about building AI, for real.</h2>
+        <p>Active writer on Gen&nbsp;AI architecture, agentic systems, and the practical reality of
+           shipping AI products. 13 articles on Medium plus regular long-form on LinkedIn. A few
+           worth starting with:</p>
       </div>
       <div class="writing-grid">
         <article class="note reveal">
-          <span class="note-meta">Essay · building</span>
-          <h3>The bottleneck isn&rsquo;t capability anymore</h3>
-          <p>A few years ago, &ldquo;turn a webcam into game input&rdquo; was a research paper. This
-             weekend it was an afternoon. The boring 80% takes care of itself now — so taste and the
-             willingness to start are the only things left in the way.</p>
-          <span class="note-link">Read the thinking &#8594;</span>
+          <div class="note-top">
+            <span class="note-meta">Framework · AI coding</span>
+            <span class="note-claps">&#128204; Pinned</span>
+          </div>
+          <h3>Choosing Your AI Coding Strategy</h3>
+          <p>After a year working alongside AI coding agents, the key to productivity isn&rsquo;t
+             just using them — it&rsquo;s a practical framework for when, where, and how much to
+             hand over. Lessons from hands-on experience.</p>
+          <div class="note-links">
+            <a class="note-link" href="https://medium.com/@uditk2/choosing-your-ai-coding-strategy-a-practical-framework-from-hands-on-experience-28348b2f1680" target="_blank" rel="noopener">Read on Medium &#8594;</a>
+          </div>
         </article>
+
         <article class="note reveal">
-          <span class="note-meta">Take · AI &amp; discovery</span>
-          <h3>Search is splitting. AI visibility is the new SEO.</h3>
-          <p>People no longer sift through ten blue links — they ask an assistant and act on the
-             answer. ChatGPT traffic can convert far better than classic search. If you can&rsquo;t
-             see how AI represents your brand, you&rsquo;re flying with blind spots.</p>
-          <span class="note-link">Read the thinking &#8594;</span>
+          <div class="note-top">
+            <span class="note-meta">Architecture · agentic systems</span>
+            <span class="note-claps">Two-part deep dive</span>
+          </div>
+          <h3>What&rsquo;s missing in today&rsquo;s AI app builders</h3>
+          <p>A multi-part architectural deep dive into why the current generation of AI app builders
+             falls short of what teams actually need — and what a more capable generation has to get
+             right.</p>
+          <div class="note-links">
+            <a class="note-link" href="https://medium.com/@uditk2/what-is-missing-in-the-current-gen-of-ai-app-builders-part-1-42c4f6548b87" target="_blank" rel="noopener">Part 1 &#8594;</a>
+            <a class="note-link" href="https://medium.com/@uditk2/what-is-missing-in-the-current-gen-of-ai-app-builders-part-2-6d2adc149d10" target="_blank" rel="noopener">Part 2 &#8594;</a>
+          </div>
         </article>
+
         <article class="note reveal">
-          <span class="note-meta">Note · growth</span>
-          <h3>Performance doesn&rsquo;t compound. Organic does.</h3>
-          <p>D2C CAC is up ~40% since 2023 and most brands answer by pouring more into paid. Usually
-             it&rsquo;s not a product or supply problem — it&rsquo;s a targeting problem. Find the
-             gaps, fix the mistargets, lift organic.</p>
-          <span class="note-link">Read the thinking &#8594;</span>
+          <div class="note-top">
+            <span class="note-meta">Agentic systems · design</span>
+          </div>
+          <h3>A Framework for Choosing the Right LLM Agent Architecture</h3>
+          <p>Building a system that can autonomously create, monitor and heal applications surfaces
+             real design hurdles. Here&rsquo;s a framework for reasoning about which agent
+             architecture actually fits the problem.</p>
+          <div class="note-links">
+            <a class="note-link" href="https://medium.com/@uditk2/a-framework-for-choosing-the-right-llm-agent-architecture-a0910411150f" target="_blank" rel="noopener">Read on Medium &#8594;</a>
+          </div>
+        </article>
+
+        <article class="note reveal">
+          <div class="note-top">
+            <span class="note-meta">Founder · lessons</span>
+          </div>
+          <h3>Builder&rsquo;s Guide to Entrepreneurship</h3>
+          <p>Lessons from 13 months after leaving a high-paying job — what I got wrong, what worked,
+             and what I&rsquo;d do differently. The honest version, for anyone weighing the same
+             jump.</p>
+          <div class="note-links">
+            <a class="note-link" href="https://medium.com/@uditk2/builders-guide-to-entrepreneurship-44a535b05ff2" target="_blank" rel="noopener">Read on Medium &#8594;</a>
+          </div>
         </article>
       </div>
-      <p class="writing-foot reveal">More long-form on <a href="https://medium.com/@uditk2" target="_blank" rel="noopener">Medium &#8599;</a> and <a href="https://www.linkedin.com/in/udit-khandelwal-8a84958/" target="_blank" rel="noopener">LinkedIn &#8599;</a></p>
+      <p class="writing-foot reveal">All 13 articles on <a href="https://medium.com/@uditk2" target="_blank" rel="noopener">Medium &#8599;</a> · long-form articles on <a href="https://www.linkedin.com/in/udit-khandelwal-8a84958/recent-activity/articles/" target="_blank" rel="noopener">LinkedIn &#8599;</a></p>
     </section>
 
     <!-- COLLAB -->
