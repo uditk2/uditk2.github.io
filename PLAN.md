@@ -63,7 +63,7 @@ Direct, builder-first, lightly contrarian, no fluff. Mirrors Udit's own LinkedIn
 4. **Selected work** (the core, card grid):
    - **Seerly** — AI visibility / GEO platform (flagship). → seerly.app
    - **SlayFit** — webcam AR fitness games, no install/headset. → slayfit.fun
-   - **Temple Collapse** — 3D maze-runner, going to CrazyGames.
+   - **Relic Hunter** — 3D maze-runner, going to CrazyGames.
    - **AI / ML experiments** — agents, SLM-RL extraction, VLM playground, transformer study.
    - **Quant / markets** — India trading system design, backtesting, Bank Nifty studies.
    - **Enterprise track record** — condensed Microsoft / Amazon / PAN / Flipkart timeline.
