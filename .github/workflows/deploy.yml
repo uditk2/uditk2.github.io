@@ -4,9 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"   # daily: pull new Medium posts into the site
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -23,6 +25,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Sync Medium articles
+        run: python3 scripts/sync_medium.py
+
+      - name: Commit synced data
+        run: |
+          if [ -n "$(git status --porcelain assets/site.json assets/articles.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/site.json assets/articles.json
+            git commit -m "Sync Medium articles"
+            git push
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

@@ -27,6 +27,33 @@
       .catch(function () {});
   })();
 
+  /* ---------- Latest articles (assets/articles.json, synced daily from Medium) ---------- */
+  (function latestArticles() {
+    var box = document.getElementById("latest");
+    var list = document.getElementById("latestList");
+    if (!box || !list || !window.fetch) return;
+    function norm(u) { try { var x = new URL(u); return x.origin + x.pathname; } catch (e) { return u; } }
+    var curated = {};
+    document.querySelectorAll("#writing .note a[href]").forEach(function (a) { curated[norm(a.href)] = true; });
+    fetch("assets/articles.json", { cache: "no-cache" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        if (!data || !data.items) return;
+        var items = data.items.filter(function (i) { return !curated[norm(i.url)]; }).slice(0, 6);
+        if (!items.length) return;
+        items.forEach(function (i) {
+          var li = document.createElement("li");
+          var a = document.createElement("a");
+          a.href = i.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = i.title;
+          var d = document.createElement("span");
+          d.textContent = new Date(i.date).toLocaleDateString("en", { month: "short", year: "numeric" });
+          li.appendChild(a); li.appendChild(d); list.appendChild(li);
+        });
+        box.hidden = false;
+      })
+      .catch(function () {});
+  })();
+
   /* ---------- Typed role rotator ---------- */
   (function rotator() {
     var el = document.getElementById("rotator");

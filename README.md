@@ -40,6 +40,13 @@ git remote add origin https://github.com/uditk2/uditk2.github.io.git
 git push -u origin main
 ```
 
+## Dynamic article list and count
+`scripts/sync_medium.py` runs daily (and on every push) inside the deploy workflow. It reads the
+Medium RSS feed, adds new posts to `assets/articles.json` (shown under "Latest on Medium") and adds
+1 to `assets/site.json` `articles` for each post published after `countedThrough`. Medium's feed only
+shows the latest 10 posts, so the total is kept as a running count. Titles listed in `hideTitles`
+stay off the page but still count. To correct the total, edit `articles` in `assets/site.json`.
+
 ## Notes
 - All visuals are drawn in code (canvas/CSS/SVG) — no external image/video downloads, no extra
   hardware needed. AI-generated hero art/video can be layered in later without changing structure.
