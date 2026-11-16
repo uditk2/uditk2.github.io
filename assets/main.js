@@ -58,7 +58,7 @@
   (function rotator() {
     var el = document.getElementById("rotator");
     if (!el) return;
-    var words = ["Founder", "Principal Engineer", "Builder", "Now learning to distribute"];
+    var words = ["Founder", "Principal Engineer", "Game maker", "Marketer in training"];
     if (reduceMotion) { el.textContent = words[0]; el.style.borderRight = "none"; return; }
     var w = 0, c = 0, deleting = false;
     function tick() {
