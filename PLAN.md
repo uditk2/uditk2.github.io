@@ -65,6 +65,8 @@ Direct, builder-first, lightly contrarian, no fluff. Mirrors Udit's own LinkedIn
    - **SlayFit** — free browser games: webcam AR games plus keyboard/touch HTML5 games
      (Puliya, Relic Hunter), multilingual. → slayfit.fun
    - **Relic Hunter** — 3D maze-runner, going to CrazyGames.
+   - **Project Inbox** — open source local email client for multiple Resend accounts.
+   - **Call Recorder for Google Meet** — on-device Chrome extension, live on the Web Store.
    - **AI / ML experiments** — agents, SLM-RL extraction, VLM playground, transformer study.
    - **Stock Catcher** — invite-only experiment that scans India F&O stocks for 5%+ moves,
      runs an agent verdict and back-tests every call. → stockcatcher.site
