@@ -68,7 +68,7 @@ Direct, builder-first, lightly contrarian, no fluff. Mirrors Udit's own LinkedIn
    - **AI / ML experiments** — agents, SLM-RL extraction, VLM playground, transformer study.
    - **Stock Catcher** — invite-only experiment that scans India F&O stocks for 5%+ moves,
      runs an agent verdict and back-tests every call. → stockcatcher.site
-   - **Enterprise track record** — condensed Microsoft / Amazon / PAN / Flipkart timeline.
+   - *(Enterprise track record is now its own section, `#track`, between Work and Writing.)*
 5. **Writing / Field notes** — curated brochure section (NOT a full blog engine). 2-3 short
    pieces adapted from Udit's real material: the "weekend AR game / capability isn't the
    bottleneck" essay, a GEO/AI-visibility take, and a D2C-organic-traffic note. Each is a

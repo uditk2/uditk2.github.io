@@ -155,6 +155,7 @@
       { sel: "#about",    text: "The nature: curious, hands-on, allergic to standing still. Range over lanes." },
       { sel: "#howiwork", text: "The operating system: build end-to-end, learn relentlessly, and now — crack distribution." },
       { sel: "#work",     text: "The proof: Seerly, SlayFit's AR and browser games, Stock Catcher, and open-source dev tools." },
+      { sel: "#track",    text: "The spine: fifteen years at Microsoft, Amazon, Palo Alto Networks and Flipkart." },
       { sel: "#writing",  text: "The thinking: short notes on building, AI-era discovery, and growth." },
       { sel: "#collab",   text: "The ask: open to collaborations — building, or distributing what's built. Say hi." }
     ];
