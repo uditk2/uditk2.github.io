@@ -1,3 +1,49 @@
 {
-  "items": []
+  "items": [
+    {
+      "title": "I built an open source inbox so AI agents can promote my apps",
+      "url": "https://medium.com/@uditk2/i-built-an-open-source-inbox-so-ai-agents-can-promote-my-apps-ede5cff3383a",
+      "date": "2026-10-24T08:18:09Z"
+    },
+    {
+      "title": "How I Turned AI Images Into a Real-Looking Three.js Game",
+      "url": "https://medium.com/@uditk2/how-i-turned-ai-images-into-a-real-looking-three-js-game-a2baace37984",
+      "date": "2026-09-29T18:39:34Z"
+    },
+    {
+      "title": "Why code review is the new bottleneck",
+      "url": "https://medium.com/@uditk2/why-code-review-is-the-new-bottleneck-72c301351f54",
+      "date": "2026-07-30T13:02:58Z"
+    },
+    {
+      "title": "The Oldest Form of Teaching Is Back, and This Time It Scales",
+      "url": "https://medium.com/@uditk2/the-oldest-form-of-teaching-is-back-and-this-time-it-scales-7e5cff0443ea",
+      "date": "2026-05-08T18:49:04Z"
+    },
+    {
+      "title": "The Future Ahead of Us: Will Software Engineering Remain as Glamorous?",
+      "url": "https://medium.com/@uditk2/the-future-ahead-of-us-will-software-engineering-remain-as-glamorous-b71f43f90d04",
+      "date": "2026-03-16T15:35:06Z"
+    },
+    {
+      "title": "Builder\u2019s Guide to Entrepreneurship",
+      "url": "https://medium.com/@uditk2/builders-guide-to-entrepreneurship-44a535b05ff2",
+      "date": "2025-12-18T05:28:19Z"
+    },
+    {
+      "title": "SEO Is Mechanical: Topics, Signals, and Real-World Usefulness",
+      "url": "https://medium.com/@uditk2/seo-is-mechanical-topics-signals-and-real-world-usefulness-aa39ea5676e5",
+      "date": "2025-12-12T17:24:42Z"
+    },
+    {
+      "title": "Deploy with Zero downtime on existing production VM with Github Actions",
+      "url": "https://medium.com/@uditk2/deploy-with-zero-downtime-on-existing-production-vm-with-github-actions-49454a9a5c4b",
+      "date": "2025-11-24T06:11:10Z"
+    },
+    {
+      "title": "Self-Hosting/Raw-Dogging Your App: A Practical Guide to VPS Management",
+      "url": "https://medium.com/@uditk2/self-hosting-your-app-a-practical-guide-to-vps-management-68ab4626e830",
+      "date": "2025-10-01T08:24:37Z"
+    }
+  ]
 }
