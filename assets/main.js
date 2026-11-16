@@ -11,6 +11,22 @@
   var yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
+  /* ---------- Site data (assets/site.json) ----------
+     Counts live in one file. HTML keeps a fallback value for no-JS and crawlers. */
+  (function siteData() {
+    if (!window.fetch) return;
+    fetch("assets/site.json", { cache: "no-cache" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        if (!data) return;
+        document.querySelectorAll("[data-site]").forEach(function (el) {
+          var v = data[el.getAttribute("data-site")];
+          if (v !== undefined && v !== null) el.textContent = v;
+        });
+      })
+      .catch(function () {});
+  })();
+
   /* ---------- Typed role rotator ---------- */
   (function rotator() {
     var el = document.getElementById("rotator");
