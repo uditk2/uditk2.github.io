@@ -168,6 +168,13 @@ h1, h2, h3 { line-height: 1.08; letter-spacing: -0.02em; margin: 0; font-weight:
 .btn-ghost { color: var(--ink); background: var(--panel); border-color: var(--panel-brd); }
 .btn-ghost:hover { border-color: var(--panel-brd-hi); transform: translateY(-2px); box-shadow: 0 0 22px rgba(255,255,255,0.06); }
 
+/* Per-product accent: a small muted tint, never a filled color */
+.dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--c, var(--silver));
+  box-shadow: 0 0 9px color-mix(in srgb, var(--c, #fff) 70%, transparent); flex: none; }
+.work-badge .dot { margin-right: 8px; vertical-align: 1px; }
+.btn.tint:hover { border-color: var(--c); box-shadow: 0 0 22px color-mix(in srgb, var(--c) 18%, transparent); }
+.work-card.tinted:hover { border-color: color-mix(in srgb, var(--c) 55%, transparent); }
+
 .hero-stats { display: flex; flex-wrap: wrap; gap: clamp(20px, 5vw, 52px); }
 .stat { display: flex; flex-direction: column; }
 .stat b {
