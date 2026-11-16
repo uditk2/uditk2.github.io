@@ -58,7 +58,7 @@
   (function rotator() {
     var el = document.getElementById("rotator");
     if (!el) return;
-    var words = ["Founder", "Principal Engineer", "Eternal learner", "Now learning to distribute"];
+    var words = ["Founder", "Principal Engineer", "Builder", "Now learning to distribute"];
     if (reduceMotion) { el.textContent = words[0]; el.style.borderRight = "none"; return; }
     var w = 0, c = 0, deleting = false;
     function tick() {
@@ -195,10 +195,10 @@
 
     var steps = [
       { sel: "#hero",     text: "Meet Udit — a builder who never stops learning. Here's a 20-second tour." },
-      { sel: "#about",    text: "The nature: curious, hands-on, allergic to standing still. Range over lanes." },
+      { sel: "#about",    text: "The nature: I learn by building. Range over lanes." },
       { sel: "#howiwork", text: "The operating system: build end-to-end, learn relentlessly, and now — crack distribution." },
       { sel: "#work",     text: "The proof: Seerly, SlayFit's AR and browser games, Stock Catcher, and open-source dev tools." },
-      { sel: "#track",    text: "The spine: fifteen years at Microsoft, Amazon, Palo Alto Networks and Flipkart." },
+      { sel: "#track",    text: "The spine: sixteen years at Microsoft, Amazon, Palo Alto Networks and Flipkart." },
       { sel: "#writing",  text: "The thinking: short notes on building, AI-era discovery, and growth." },
       { sel: "#collab",   text: "The ask: open to collaborations — building, or distributing what's built. Say hi." }
     ];

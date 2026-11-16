@@ -8,7 +8,7 @@ Hosted at `https://uditk2.github.io` via GitHub Pages (GitHub Actions deploy).
 
 ## 1. Positioning (the call, and why)
 
-**Lead identity: Founder + Versatile Engineer-Builder** — *"A 15-year engineer who now
+**Lead identity: Founder + Versatile Engineer-Builder** — *"A 16-year engineer who now
 founds and ships."*
 
 Why this over a pure "AI Builder":
@@ -57,7 +57,7 @@ Direct, builder-first, lightly contrarian, no fluff. Mirrors Udit's own LinkedIn
 1. **Hero** — name, rotating role tagline, one-line mission, primary CTAs (Collaborate, Seerly,
    Play a game), animated constellation backdrop, floating PiP tour launcher.
 2. **About / Snapshot** — 3-4 sentence story of the founder-builder arc; quick stat chips
-   (15+ yrs, ex-Microsoft/Amazon, NITW, 4+ shipped products).
+   (16 yrs, ex-Microsoft/Amazon, NITW, 4+ shipped products).
 3. **What I do / How I work** — three pillars: *Build AI-native products*, *Ship fast &
    end-to-end*, *Bring enterprise-grade depth*. Each with a short proof line.
 4. **Selected work** (the core, card grid):
