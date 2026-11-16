@@ -148,7 +148,7 @@ h1, h2, h3 { line-height: 1.08; letter-spacing: -0.02em; margin: 0; font-weight:
   color: #ffffff; font-weight: 700;
   border-right: 2px solid var(--silver); padding-right: 4px;
 }
-.role-tail { color: var(--ink-dim); }
+.role-tail { color: var(--ink-dim); transition: opacity 0.25s; }
 .hero-lede {
   max-width: 660px; font-size: clamp(16px, 2vw, 19px); color: var(--ink-dim); margin: 0 0 34px;
 }

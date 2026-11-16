@@ -58,15 +58,30 @@
   (function rotator() {
     var el = document.getElementById("rotator");
     if (!el) return;
-    var words = ["Founder", "Principal Engineer", "Game maker", "Marketer in training"];
-    if (reduceMotion) { el.textContent = words[0]; el.style.borderRight = "none"; return; }
+    var tailEl = document.getElementById("roleTail");
+    // Each role carries its own tail, so every combination reads as a full sentence.
+    var phrases = [
+      ["Founder", "who ships end\u2011to\u2011end."],
+      ["Principal Engineer", "who still writes the code."],
+      ["Game maker", "who ships to the browser."],
+      ["Marketer in training", "learning distribution in public."]
+    ];
+    if (reduceMotion) { el.textContent = phrases[0][0]; el.style.borderRight = "none"; return; }
+    function setTail(text) {
+      if (!tailEl) return;
+      tailEl.style.opacity = 0;
+      setTimeout(function () { tailEl.textContent = text; tailEl.style.opacity = 1; }, 260);
+    }
     var w = 0, c = 0, deleting = false;
     function tick() {
-      var word = words[w];
+      var word = phrases[w][0];
       el.textContent = deleting ? word.substring(0, c--) : word.substring(0, c++);
       var delay = deleting ? 45 : 90;
       if (!deleting && c === word.length + 1) { deleting = true; delay = 1500; c = word.length; }
-      else if (deleting && c === 0) { deleting = false; w = (w + 1) % words.length; delay = 350; }
+      else if (deleting && c === 0) {
+        deleting = false; w = (w + 1) % phrases.length; delay = 350;
+        setTail(phrases[w][1]);
+      }
       setTimeout(tick, delay);
     }
     tick();
