@@ -62,10 +62,12 @@ Direct, builder-first, lightly contrarian, no fluff. Mirrors Udit's own LinkedIn
    end-to-end*, *Bring enterprise-grade depth*. Each with a short proof line.
 4. **Selected work** (the core, card grid):
    - **Seerly** — AI visibility / GEO platform (flagship). → seerly.app
-   - **SlayFit** — webcam AR fitness games, no install/headset. → slayfit.fun
+   - **SlayFit** — free browser games: webcam AR games plus keyboard/touch HTML5 games
+     (Puliya, Relic Hunter), multilingual. → slayfit.fun
    - **Relic Hunter** — 3D maze-runner, going to CrazyGames.
    - **AI / ML experiments** — agents, SLM-RL extraction, VLM playground, transformer study.
-   - **Quant / markets** — India trading system design, backtesting, Bank Nifty studies.
+   - **Stock Catcher** — invite-only experiment that scans India F&O stocks for 5%+ moves,
+     runs an agent verdict and back-tests every call. → stockcatcher.site
    - **Enterprise track record** — condensed Microsoft / Amazon / PAN / Flipkart timeline.
 5. **Writing / Field notes** — curated brochure section (NOT a full blog engine). 2-3 short
    pieces adapted from Udit's real material: the "weekend AR game / capability isn't the
